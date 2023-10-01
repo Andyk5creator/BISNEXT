@@ -3701,15 +3701,6 @@ h6 {
     max-width: 9.375rem;
   }
 
-  .icon-menu {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-
-  .icon-menu div {
-    width: 0.875rem;
-  }
-
   .menu__content {
     padding: 5.5rem 0rem 2.125rem;
   }
