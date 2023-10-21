@@ -866,6 +866,9 @@ p {
   display: block;
   position: relative;
   z-index: -1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 3.75rem;
@@ -2108,6 +2111,9 @@ h6 {
 
 .spoller-portfolio {
   padding: 1.125rem 0rem 1.75rem;
+  -webkit-transform: translateX(0rem);
+      -ms-transform: translateX(0rem);
+          transform: translateX(0rem);
   position: relative;
 }
 
@@ -3848,6 +3854,9 @@ h6 {
   }
 
   .btn__watch-video > div {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
     width: 2.8125rem;
     height: 2.8125rem;
     font-size: 1.125rem;
@@ -4514,9 +4523,9 @@ h6 {
   }
 
   .btn:hover::before {
-    -webkit-transform: scale3D(0.81, 0.81, 0.81);
-        -ms-transform: scale3D(0.81, 0.81, 0.81);
-            transform: scale3D(0.81, 0.81, 0.81);
+    -webkit-transform: scale(0.81);
+        -ms-transform: scale(0.81);
+            transform: scale(0.81);
   }
 
   .dropdown-menu-header:hover .dropdown-menu-header__toggle {
@@ -4582,9 +4591,9 @@ h6 {
   }
 
   .spoller-portfolio:hover {
-    -webkit-transform: translate3D(0.5rem, 0, 0);
-        -ms-transform: translate3D(0.5rem, 0, 0);
-            transform: translate3D(0.5rem, 0, 0);
+    -webkit-transform: translateX(0.5rem);
+        -ms-transform: translateX(0.5rem);
+            transform: translateX(0.5rem);
   }
 
   .slider-testimonials__arrow:hover {
