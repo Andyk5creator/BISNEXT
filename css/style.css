@@ -4622,9 +4622,9 @@ h6 {
   }
 
   .cta__link:hover {
-    -webkit-transform: scale3D(0.92);
-        -ms-transform: scale3D(0.92);
-            transform: scale3D(0.92);
+    -webkit-transform: scale(0.92);
+        -ms-transform: scale(0.92);
+            transform: scale(0.92);
   }
 
   .item-blog a:hover img {
