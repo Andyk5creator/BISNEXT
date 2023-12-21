@@ -2600,7 +2600,7 @@ h6 {
 }
 
 .blog {
-  padding: 2.9375rem 0rem 3.125rem;
+  padding: 6.25rem 0rem 3.125rem;
 }
 
 .items-blog {
@@ -3664,6 +3664,10 @@ h6 {
     margin-bottom: 2rem;
   }
 
+  .blog {
+    padding-top: 4.3125rem;
+  }
+
   .items-blog {
     -webkit-column-gap: 1.5rem;
        -moz-column-gap: 1.5rem;
@@ -3972,6 +3976,10 @@ h6 {
 
   .spoller-fqs__title h3 {
     font-size: 1.1875rem;
+  }
+
+  .blog {
+    padding-top: 3.5625rem;
   }
 
   .items-blog {
